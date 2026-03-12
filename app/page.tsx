@@ -3,34 +3,24 @@ import { Card } from "flowbite-react";
 
 export default function Home() {
   return (
-    <div className="dark:bg-black">
+    <div>
       <Card href="#" className="max-w-sm">
         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           About Me
         </h5>
-        <p className="font-normal text-gray-700 dark:text-gray-400">
-          Here are the biggest enterprise technology acquisitions of 2021 so
-          far, in reverse chronological order.
+        <p className="font-normal text-black-700 dark:text-black-400">
+          My name is brandon and a few things about me are listed below.
+
         </p>
       </Card>
 
       <Card href="#" className="max-w-sm">
         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-          Noteworthy technology acquisitions 2021
+          Projects 
         </h5>
         <p className="font-normal text-gray-700 dark:text-gray-400">
-          Here are the biggest enterprise technology acquisitions of 2021 so
-          far, in reverse chronological order.
-        </p>
-      </Card>
+          Some of the project i have made recently will be listed below.
 
-      <Card href="#" className="max-w-sm">
-        <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-          Project
-        </h5>
-        <p className="font-normal text-gray-700 dark:text-gray-400">
-          Here are the biggest enterprise technology acquisitions of 2021 so
-          far, in reverse chronological order.
         </p>
       </Card>
 
@@ -39,28 +29,26 @@ export default function Home() {
           Skills
         </h5>
         <p className="font-normal text-gray-700 dark:text-gray-400">
-          Here are the biggest enterprise technology acquisitions of 2021 so
-          far, in reverse chronological order.
+          Some of my skills are listed below.
+
         </p>
       </Card>
 
       <Card href="#" className="max-w-sm">
         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-          LinkedIn Spot Here
+          LinkedIn
         </h5>
         <p className="font-normal text-gray-700 dark:text-gray-400">
-          Here are the biggest enterprise technology acquisitions of 2021 so
-          far, in reverse chronological order.
+          Here is where the LinkedIn would be
         </p>
       </Card>
 
       <Card href="#" className="max-w-sm">
         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-          Resume Spot Here
+          Resume
         </h5>
         <p className="font-normal text-gray-700 dark:text-gray-400">
-          Here are the biggest enterprise technology acquisitions of 2021 so
-          far, in reverse chronological order.
+          Here is where the resume would be
         </p>
       </Card>
     </div>
