@@ -49,15 +49,15 @@ export default function Home() {
             Some of the project i have made recently will be listed below.
           </p>
           <p className="font-normal text-gray-700 dark:text-white">
+          <link rel="stylesheet" href="https://vanhornbc2-z1uv.vercel.app"/>
             All For One NextJS Rebuild
           </p>
           <p className="font-normal text-gray-700 dark:text-white">
-            Influential Person Website
-          </p>
-          <p className="font-normal text-gray-700 dark:text-white">
+          <link rel="stylesheet" href="https://allforoneapi-hhdrdah6b0hgfgdz.westus3-01.azurewebsites.net"/>
             All For One Api
           </p>
           <p className="font-normal text-gray-700 dark:text-white">
+          <link rel="stylesheet" href="https://rpslsprototype-heakdjezgtcvhfap.westus3-01.azurewebsites.net/RPS/RPSServices"/>
             Rock Paper Scissors Lizard Spock Prototype
           </p>
         </Card>
@@ -70,13 +70,8 @@ export default function Home() {
             Some of my skills are listed below.
           </p>
           <p className="font-normal text-gray-700 dark:text-white">
-            Punctual or Early to most things
-          </p>
-          <p className="font-normal text-gray-700 dark:text-white">
-            Restaurant Operation
-          </p>
-          <p className="font-normal text-gray-700 dark:text-white">
-            Multitasking
+            coding languages and subject learned in academy.
+            like c# and javascript and other coding related subjects.
           </p>
         </Card>
 
