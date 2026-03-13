@@ -14,14 +14,15 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="text-center">
-      <Navbar fluid rounded>
-        <NavbarBrand>
-          <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-            Brandons Portfolio
-          </span>
-        </NavbarBrand>
-      </Navbar>
-
+      <div>
+        <Navbar fluid rounded>
+          <NavbarBrand>
+            <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+              Brandons Portfolio
+            </span>
+          </NavbarBrand>
+        </Navbar>
+      </div>
       <div>
         <Card href="#" className="max-w-sm">
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -31,7 +32,8 @@ export default function Home() {
             My name is Brandon and a few things about me are below.
           </p>
           <p className="font-normal text-black-700 dark:text-black-400">
-            I like playing video games watching shows and spending time with my pet cats.
+            I like playing video games watching shows and spending time with my
+            pet cats.
           </p>
           <p className="font-normal text-black-700 dark:text-black-400">
             Phone Number: 208-539-3690
@@ -40,7 +42,9 @@ export default function Home() {
             Email: bmdvanhorn@icloud.com
           </p>
         </Card>
+      </div>
 
+      <div className="bg-white">
         <Card href="#" className="max-w-sm">
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Projects
@@ -49,19 +53,25 @@ export default function Home() {
             Some of the project i have made recently will be listed below.
           </p>
           <p className="font-normal text-gray-700 dark:text-white">
-          <link rel="stylesheet" href="https://vanhornbc2-z1uv.vercel.app"/>
+            <link rel="stylesheet" href="https://vanhornbc2-z1uv.vercel.app"/>
             All For One NextJS Rebuild
           </p>
           <p className="font-normal text-gray-700 dark:text-white">
-          <link rel="stylesheet" href="https://allforoneapi-hhdrdah6b0hgfgdz.westus3-01.azurewebsites.net"/>
+            <link
+              rel="stylesheet"
+              href="https://allforoneapi-hhdrdah6b0hgfgdz.westus3-01.azurewebsites.net"/>
             All For One Api
           </p>
           <p className="font-normal text-gray-700 dark:text-white">
-          <link rel="stylesheet" href="https://rpslsprototype-heakdjezgtcvhfap.westus3-01.azurewebsites.net/RPS/RPSServices"/>
+            <link
+              rel="stylesheet"
+              href="https://rpslsprototype-heakdjezgtcvhfap.westus3-01.azurewebsites.net/RPS/RPSServices"/>
             Rock Paper Scissors Lizard Spock Prototype
           </p>
         </Card>
+      </div>
 
+      <div>
         <Card href="#" className="max-w-sm">
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Skills
@@ -70,11 +80,13 @@ export default function Home() {
             Some of my skills are listed below.
           </p>
           <p className="font-normal text-gray-700 dark:text-white">
-            coding languages and subject learned in academy.
-            like c# and javascript and other coding related subjects.
+            coding languages and subject learned in academy. like c# and
+            javascript and other coding related subjects.
           </p>
         </Card>
+      </div>
 
+      <div>
         <Card href="#" className="max-w-sm">
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             LinkedIn
@@ -83,7 +95,9 @@ export default function Home() {
             Here is where the LinkedIn would be.
           </p>
         </Card>
+      </div>
 
+      <div>
         <Card href="#" className="max-w-sm">
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Resume
