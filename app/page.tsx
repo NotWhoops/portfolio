@@ -277,7 +277,7 @@ export default function Home() {
           Linked In
         </h5>
         <p className="font-normal dark:text-white">
-          https://www.linkedin.com/in/brandon-van-horn-7a33243b8/
+          www.linkedin.com/in/brandonvanhorn2
         </p>
       </div>
       <div className="bg-black text-center">
