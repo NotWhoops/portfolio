@@ -10,10 +10,11 @@ import postman from "./assets/postman logo.webp";
 import unity from "./assets/unity logo.png";
 import vercel from "./assets/vercel logo.png";
 import vscode from "./assets/vscode logo.png";
-import Image from "next/image";
+import resume from "./assets/resume1.png";
+import resume2 from "./assets/resume2.png";
+import Image from "next/image";``
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { postMessageToThread } from "worker_threads";
 
 export default function Home() {
   const router = useRouter();
@@ -276,7 +277,15 @@ export default function Home() {
           Linked In
         </h5>
         <p className="font-normal dark:text-white">
-          Here is where the link for LinkedIn would be and some info about it.
+          https://www.linkedin.com/in/brandon-van-horn-7a33243b8/
+        </p>
+      </div>
+      <div className="bg-black text-center">
+        <h5 className="text-2xl font-bold tracking-tight dark:text-white">
+          Github
+        </h5>
+        <p className="font-normal dark:text-white">
+          https://github.com/NotWhoops/portfolio
         </p>
       </div>
 
@@ -285,8 +294,22 @@ export default function Home() {
           Resume
         </h5>
         <p className="font-normal dark:text-black">
-          Here is where the link to the Resume would be and some a summary about
-          me and info on the resume or some other infofmation.
+          <Image
+                alt="unity logo"
+                src={resume}
+                style={{
+                  maxWidth: "40%",
+                  height: "auto",
+                }}
+              />
+          <Image
+                alt="unity logo"
+                src={resume2}
+                style={{
+                  maxWidth: "40%",
+                  height: "auto",
+                }}
+              />
         </p>
       </div>
     </div>
